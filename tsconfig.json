@@ -1,0 +1,15 @@
+{
+    "compilerOptions": {
+        "module": "commonjs",
+        "target": "ES5",
+        "jsx": "preserve"
+    },
+    "files": [
+        "./typings/cycle/cycle.d.ts",
+        "./typings/cycle/jquery.d.ts",
+        "./src/app.tsx"
+    ],
+    "exclude": [
+        "node_modules"
+    ]
+}

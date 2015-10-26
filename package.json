@@ -1,0 +1,26 @@
+{
+  "name": "cyclejs-playground",
+  "version": "0.1.0",
+  "description": "A playground for FRP with cycle.js",
+  "main": "src/app.tsx",
+  "scripts": {
+    "postinstall": "node node_modules/tsd/build/cli.js install",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Marcel Hoyer",
+  "license": "ISC",
+  "repository": "https://github.com/mhoyer/cyclejs-playground",
+  "dependencies": {
+    "@cycle/core": "^5.0.1",
+    "@cycle/dom": "^7.1.1",
+    "rx": "^4.0.6"
+  },
+  "devDependencies": {
+    "gulp": "^3.9.0",
+    "gulp-jsx": "^2.0.1",
+    "gulp-rename": "^1.2.2",
+    "gulp-sourcemaps": "^1.6.0",
+    "gulp-typescript": "^2.9.2",
+    "tsd": "^0.6.5"
+  }
+}
